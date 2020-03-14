@@ -1,0 +1,141 @@
+.line {
+    width: 100%;
+    border: 1px solid #7BC142;
+    float: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background: gray;
+}
+
+.tourText {
+    font-size: 6vw;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.word {
+    color: #5169ec;
+}
+
+.red {
+    color: red;
+}
+
+.question,
+.linkAnswer {
+    margin-top: 200px;
+}
+
+.view {
+    text-align: center;
+    font-size: 4vw;
+    font-family: sans-serif;
+}
+
+.fourContent {
+    margin-top: 300px;
+}
+
+.textLink {
+    color: #5169ec !important;
+}
+
+.textLink:hover {
+    text-decoration: none;
+    color: #000000 !important;
+}
+
+.lineView {
+    width: 10%;
+    border: 1px solid #5169ec;
+}
+
+.contentLogin, .contentRegister {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.formLogin {
+    padding: 70px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+.loginContent {
+    width: 250px;
+}
+
+.formRegister {
+    padding: 70px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 50%;
+}
+
+.registerContent {
+    width: 250px;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7BC142;
+    border-color: #7BC142;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7bc142ed;
+    border-color: #7bc142ed;
+}
+
+
+.icons {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.titleForm {
+    font-family: sans-serif;
+}
+
+/*Responsive*/
+@media (min-width: 0px) and (max-width: 768px) {
+    .formLogin {
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    .formRegister {
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .contentLogin, .contentRegister {
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+}
